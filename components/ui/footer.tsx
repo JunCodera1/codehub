@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '../../public/images/logo.svg'
+import Logo from '../../public/images/logo.png'
 
 export default function Footer() {
   return (
@@ -12,15 +12,15 @@ export default function Footer() {
           <div className="sm:col-span-12 lg:col-span-2 lg:max-w-xs">
             <div className="mb-2">
               {/* Logo */}
-              <Link className="inline-flex" href="/" aria-label="CodeHub">
-               <Image
-                className=""
+              <Link className="block" href="/" aria-label="pancaronadev">
+              <Image
+                className="w-16 h-16 md:w-25 md:h-25" // đã phóng to lên gấp đôi
                 src={Logo}
-                width={30}
-                height={30}
-                alt="CodeHub Logo"
+                width={200}
+                height={200}
+                alt="Logo"
               />
-              </Link>
+            </Link>
             </div>
           </div>
           {/* 2nd block: Learning Resources */}

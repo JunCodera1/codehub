@@ -2,7 +2,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from '../../public/images/logo.svg';
+import Logo from '../../public/images/logo.png';
 
 export default function Header({ nav = true }: { nav?: boolean }) {
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
@@ -46,10 +46,10 @@ export default function Header({ nav = true }: { nav?: boolean }) {
             {/* Logo */}
             <Link className="block" href="/" aria-label="pancaronadev">
               <Image
-                className="w-8 h-8 md:w-10 md:h-10"
+                className="w-16 h-16 md:w-25 md:h-25" // đã phóng to lên gấp đôi
                 src={Logo}
-                width={40}
-                height={40}
+                width={200}
+                height={200}
                 alt="Logo"
               />
             </Link>
