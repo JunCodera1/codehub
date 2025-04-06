@@ -9,6 +9,7 @@ import { Swiper } from 'swiper';
 import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
 
+
 // Array of carousel items
 const features = [
   {
@@ -40,6 +41,8 @@ const features = [
 export default function Features() {
   useEffect(() => {
     const carousel = new Swiper('.carousel', {
+      // Thêm modules vào đây
+      modules: [Autoplay, Navigation],
       breakpoints: {
         320: {
           slidesPerView: 1,
@@ -57,7 +60,7 @@ export default function Features() {
       initialSlide: 0,
       spaceBetween: 24,
       autoplay: {
-        delay: 7000,
+        delay: 4000,
       },
       navigation: {
         nextEl: '.carousel-next',
@@ -85,11 +88,12 @@ export default function Features() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-sans mb-4">Lorem ipsum dolor sit amet</h2>
+          <h2 className="h2 font-sans mb-4">
+            <p className="text-orange">Code.Hub</p>
+          </h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est.
+              Code.Hub is a Recruitment Agency, a Learning & Development partner, an Extended Team and Project Delivery expert in the Tech Industry.
               </p>
             </div>
           </div>

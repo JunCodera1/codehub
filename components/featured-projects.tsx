@@ -1,54 +1,52 @@
 import Image from 'next/image';
 
-export default function FaeturedProjects() {
-  const projects = [
+export default function FeaturedProjects() {
+  const features = [
     {
       img: '/images/features-icon-01.svg',
-      title: 'Collaboration',
+      title: 'Seamless Collaboration',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+        'Work with developers, designers, and creators in real-time. Share ideas and build together effortlessly.',
     },
     {
       img: '/images/features-icon-02.svg',
-      title: 'Experiences',
+      title: 'Meaningful Experiences',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+        'Participate in hands-on projects, gain real-world experience, and grow your portfolio along the way.',
     },
   ];
 
   return (
-    <section className="relative">
+    <section className="relative py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <h2 className="font-aspekta text-xl font-[650] mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        {/* Section title */}
+        <h2 className="font-aspekta text-2xl font-semibold mb-10 text-center text-slate-800">
+          Discover the core features that empower our community
         </h2>
 
         {/* Cards */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-5">
-          {projects.map((project, index) => (
+        <div className="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-6">
+          {features.map((feature, index) => (
             <a
               key={index}
-              className="rounded-lg border border-slate-300 odd:-rotate-1 even:rotate-1 hover:rotate-0 transition-transform duration-700 hover:duration-100 ease-in-out p-5"
+              className="rounded-xl border border-slate-200 hover:shadow-md odd:-rotate-1 even:rotate-1 hover:rotate-0 transition-transform duration-700 hover:duration-100 ease-in-out p-6 bg-white"
               href="#0"
             >
               <div className="flex flex-col h-full">
-                <div className="grow">
-                  <div className="h-10 w-10 flex items-center justify-center rounded-full mb-2">
-                    <Image
-                      className="mb-3"
-                      src={project.img}
-                      width={56}
-                      height={56}
-                      alt={project.title}
-                    />
-                  </div>
-                  <div className="text-lg font-aspekta font-[650] mb-1">
-                    {project.title}
-                  </div>
-                  <p className="text-sm text-slate-500 mb-2">
-                    {project.description}
-                  </p>
+                <div className="flex items-center justify-start mb-4">
+                  <Image
+                    src={feature.img}
+                    width={48}
+                    height={48}
+                    alt={feature.title}
+                  />
                 </div>
+                <div className="text-lg font-aspekta font-semibold mb-2 text-slate-800">
+                  {feature.title}
+                </div>
+                <p className="text-sm text-slate-500 mb-4">
+                  {feature.description}
+                </p>
                 <div className="text-sky-500 flex justify-end">
                   <svg
                     className="fill-current"

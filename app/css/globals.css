@@ -545,3 +545,9 @@ input[type=range]::-ms-thumb {
 input[type=range]::-moz-focus-outer {
   border: 0;
 }
+.text-orange{
+  color: #FF5720;
+}
+.h2 {
+  align-items: center;
+}
