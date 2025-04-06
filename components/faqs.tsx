@@ -1,38 +1,35 @@
 export default function Faqs() {
-  // Array of FAQ items
+  // Array of FAQ items related to CodeHub as a programming learning platform
   const faqs = [
     {
-      question:
-        'Nullam laoreet lacus a lectus dignissim, vel ultrices lorem mattis',
+      question: 'What is CodeHub?',
       answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam.',
+        'CodeHub is an online platform designed to help learners of all levels improve their programming skills. It offers tutorials, coding challenges, and a collaborative environment to enhance your learning experience.',
     },
     {
-      question:
-        'Pellentesque habitant morbi tristique senectus et netus et malesuada',
+      question: 'How do I start learning on CodeHub?',
       answer:
-        'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
+        'To start learning on CodeHub, simply sign up for an account, explore our courses, and choose the programming languages or topics that interest you. You can track your progress and participate in coding challenges to test your skills.',
     },
     {
-      question:
-        'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices',
+      question: 'Can I collaborate with others on projects?',
       answer:
-        'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Yes! CodeHub allows you to collaborate with other learners and experienced developers on various coding projects. Join a team, share ideas, and build solutions together to improve your skills.',
     },
     {
-      question: 'Cras vehicula nisi id aliquet tincidunt',
+      question: 'What kind of courses does CodeHub offer?',
       answer:
-        'Curabitur eget velit orci. Nam quis mauris sit amet metus vehicula faucibus sed sit amet nunc.',
+        'CodeHub offers a variety of courses covering topics such as web development, mobile app development, data science, machine learning, and more. Our courses are designed for all skill levels, from beginners to advanced programmers.',
     },
     {
-      question: 'Integer id sapien nec ipsum gravida fermentum',
+      question: 'Do I need any prior programming experience to use CodeHub?',
       answer:
-        'Morbi scelerisque, nisi id tincidunt tincidunt, ligula lorem varius libero, ut egestas libero nulla eget tortor.',
+        'No prior experience is necessary to start learning on CodeHub. We offer beginner-friendly courses and resources to help you get started, and you can progress at your own pace as you build your skills.',
     },
     {
-      question: 'Suspendisse a nulla sit amet purus blandit luctus',
+      question: 'How do I track my progress on CodeHub?',
       answer:
-        'Proin tincidunt, augue non vestibulum aliquam, arcu tortor blandit dolor, a tincidunt mi felis nec libero.',
+        'CodeHub provides a built-in progress tracker for each course. You can view your completed lessons, coding challenges, and earned badges as you work through the platform. It’s a great way to stay motivated!',
     },
   ];
 
@@ -42,15 +39,13 @@ export default function Faqs() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="pb-12 md:pb-20">
-            <h2 className="h2 font-sans">FAQs</h2>
+            <h2 className="h2 font-sans">Frequently Asked Questions (FAQs)</h2>
           </div>
           {/* Grid layout for FAQs */}
           <div className="grid md:grid-cols-2 gap-12">
             {faqs.map((faq, index) => (
               <div key={index} className="space-y-2">
-                <h4 className="text-xl font-sans font-medium">
-                  {faq.question}
-                </h4>
+                <h4 className="text-xl font-sans font-medium">{faq.question}</h4>
                 <p className="text-slate-500">{faq.answer}</p>
               </div>
             ))}

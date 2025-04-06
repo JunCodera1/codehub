@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '../public/images/logo.svg'
-
+import Logo from '../../public/images/logo.svg'
 
 export default function Footer() {
   return (
@@ -13,44 +12,44 @@ export default function Footer() {
           <div className="sm:col-span-12 lg:col-span-2 lg:max-w-xs">
             <div className="mb-2">
               {/* Logo */}
-              <Link className="inline-flex" href="/" aria-label="pancaronadev">
+              <Link className="inline-flex" href="/" aria-label="CodeHub">
                <Image
                 className=""
                 src={Logo}
                 width={30}
                 height={30}
-                alt="Logo"
+                alt="CodeHub Logo"
               />
               </Link>
             </div>
           </div>
-          {/* 2nd block */}
+          {/* 2nd block: Learning Resources */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-xs text-slate-800 font-semibold uppercase underline mb-3">Products</h6>
+            <h6 className="text-xs text-slate-800 font-semibold uppercase underline mb-3">Learning Resources</h6>
             <ul className="text-sm space-y-2">
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Saas Manage
+                  Beginner Tutorials
                 </a>
               </li>
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Saas Analyse
+                  Advanced Courses
                 </a>
               </li>
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Saas Launch
+                  Projects & Challenges
                 </a>
               </li>
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Experimentation
+                  Code Reviews
                 </a>
               </li>
             </ul>
           </div>
-          {/* 3rd block */}
+          {/* 3rd block: Resources */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-slate-800 font-semibold uppercase underline mb-3">Resources</h6>
             <ul className="text-sm space-y-2">
@@ -61,50 +60,50 @@ export default function Footer() {
               </li>
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Cheat Sheet
+                  Documentation
                 </a>
               </li>
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Channel Partners
+                  Community Forum
                 </a>
               </li>
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Affiliate Program
+                  Mentorship Program
                 </a>
               </li>
             </ul>
           </div>
-          {/* 4th block */}
+          {/* 4th block: Community */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-xs text-slate-800 font-semibold uppercase underline mb-3">Projects</h6>
+            <h6 className="text-xs text-slate-800 font-semibold uppercase underline mb-3">Community</h6>
             <ul className="text-sm space-y-2">
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Session Recording
+                  Join Discord
                 </a>
               </li>
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Feature Flags
+                  GitHub Repos
                 </a>
               </li>
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Heatmaps
+                  Meetup Events
                 </a>
               </li>
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Correlation Analysis
+                  Student Testimonials
                 </a>
               </li>
             </ul>
           </div>
-          {/* 5th block */}
+          {/* 5th block: Company */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-xs text-slate-800 font-semibold uppercase underline mb-3">Company</h6>
+            <h6 className="text-xs text-slate-800 font-semibold uppercase underline mb-3">About CodeHub</h6>
             <ul className="text-sm space-y-2">
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
@@ -113,12 +112,12 @@ export default function Footer() {
               </li>
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Our Story
+                  Careers
                 </a>
               </li>
               <li>
                 <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">
-                  Work With Us
+                  Contact
                 </a>
               </li>
             </ul>
@@ -132,40 +131,18 @@ export default function Footer() {
               <a
                 className="flex justify-center items-center text-indigo-500 hover:text-slate-500 transition duration-150 ease-in-out"
                 href="#0"
-                aria-label="Twitter"
+                aria-label="GitHub"
               >
                 <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <path d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z" />
-                </svg>
-              </a>
-            </li>
-            <li className="ml-2">
-              <a
-                className="flex justify-center items-center text-indigo-500 hover:text-slate-500 transition duration-150 ease-in-out"
-                href="#0"
-                aria-label="Medium"
-              >
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M23 8H9a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1Zm-1.708 3.791-.858.823a.251.251 0 0 0-.1.241V18.9a.251.251 0 0 0 .1.241l.838.823v.181h-4.215v-.181l.868-.843c.085-.085.085-.11.085-.241v-4.887l-2.41 6.131h-.329l-2.81-6.13V18.1a.567.567 0 0 0 .156.472l1.129 1.37v.181h-3.2v-.181l1.129-1.37a.547.547 0 0 0 .146-.472v-4.749a.416.416 0 0 0-.138-.351l-1-1.209v-.181H13.8l2.4 5.283 2.122-5.283h2.971l-.001.181Z" />
-                </svg>
-              </a>
-            </li>
-            <li className="ml-2">
-              <a
-                className="flex justify-center items-center text-indigo-500 hover:text-slate-500 transition duration-150 ease-in-out"
-                href="#0"
-                aria-label="Github"
-              >
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z" />
+                  <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8-8Z" />
                 </svg>
               </a>
             </li>
           </ul>
-          {/* Links */}
-          <div className="text-sm text-slate-600">
-            <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">Terms</a> · <a className="text-slate-800 hover:text-slate-500 transition duration-150 ease-in-out" href="#0">Privacy Policy</a>
-          </div>
+          {/* Copyright */}
+          <p className="text-xs text-slate-500">
+            &copy; {new Date().getFullYear()} CodeHub. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

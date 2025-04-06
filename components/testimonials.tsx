@@ -10,7 +10,7 @@ export default function TestimonialsCarousel() {
       username: '@alice_in_tech',
       date: 'June 23, 2028',
       content:
-        'This platform has completely transformed the way I approach my projects. The clean design and robust tools make everything so much easier!',
+        'CodeHub has completely transformed my approach to learning programming. The structured courses and community support have made learning so much more engaging!',
       channel: 'Twitter',
     },
     {
@@ -19,7 +19,7 @@ export default function TestimonialsCarousel() {
       username: '@dharper_99',
       date: 'July 8, 2028',
       content:
-        "I've never come across something so intuitive and efficient. It feels like it was made specifically for my workflow!",
+        "CodeHub's interactive tutorials and mentorship program have taken my coding skills to the next level. It feels like I'm working on real-world projects!",
       channel: 'Twitter',
     },
     {
@@ -28,7 +28,7 @@ export default function TestimonialsCarousel() {
       username: '@soph_nguy',
       date: 'August 14, 2028',
       content:
-        'Absolutely love using this tool. The features are unmatched, and it has boosted my productivity tenfold. Highly recommend it to anyone!',
+        'I love how CodeHub integrates hands-on projects with learning. It has drastically boosted my productivity, and I feel more confident as a developer.',
       channel: 'Twitter',
     },
     {
@@ -37,7 +37,7 @@ export default function TestimonialsCarousel() {
       username: '@liam.codes',
       date: 'September 3, 2028',
       content:
-        "This app has set a new standard for user experience. It’s sleek, fast, and incredibly effective. I'm beyond impressed!",
+        "CodeHub is hands down the best platform for developers at any stage. It's user-friendly, fast, and the community makes it feel like a family. Highly recommend it!",
       channel: 'Twitter',
     },
   ];
@@ -59,7 +59,7 @@ export default function TestimonialsCarousel() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold md:text-4xl">
-              Top startups love Simple
+              What Developers Love About CodeHub
             </h2>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function Cta() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20" data-aos="fade-up">
-            <h2 className="h2 font-sans">Únase a la plataforma centrada en el usuario más flexible para equiposs</h2>
+            <h2 className="h2 font-sans">This platform has completely transformed the way I approach my projects. The clean design and robust tools make everything so much easier!</h2>
           </div>
           {/* Buttons */}
           <div className="text-center">

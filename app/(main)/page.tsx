@@ -10,6 +10,7 @@ import FeaturedProjects from '../../components/featured-projects';
 import Faqs from '../../components/faqs';
 import TestimonialsCarousel from '../../components/testimonials';
 import Cta from '../../components/cta';
+import Footer from '../../components/ui/footer';
 
 export default function Home() {
   const { isInitialized } = useThreeJs();
@@ -31,6 +32,7 @@ export default function Home() {
       <Faqs />
       <TestimonialsCarousel />
       <Cta />
+      <Footer/>
     </>
   );
 }

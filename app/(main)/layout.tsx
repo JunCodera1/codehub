@@ -1,3 +1,5 @@
+// app/layout.tsx
+
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '../css/globals.css'
@@ -16,6 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head />
       <body className={inter.className}>
         {children}
       </body>

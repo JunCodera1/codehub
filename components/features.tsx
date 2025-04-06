@@ -9,39 +9,37 @@ import { Swiper } from 'swiper';
 import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
 
-
 // Array of carousel items
 const features = [
   {
     img: '/images/features-icon-01.svg',
-    title: 'Collaboration',
+    title: 'Interactive Tutorials',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+      'Dive into hands-on coding tutorials, covering everything from basics to advanced programming concepts with step-by-step guidance.',
   },
   {
     img: '/images/features-icon-02.svg',
-    title: 'Experiences',
+    title: 'Mentorship & Support',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+      'Get personalized mentorship from experienced developers and receive real-time support while working on projects.',
   },
   {
     img: '/images/features-icon-03.svg',
-    title: 'Animation',
+    title: 'Project-Based Learning',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+      'Learn by doing! CodeHub offers real-world projects that allow you to apply your skills and build a portfolio.',
   },
   {
     img: '/images/features-icon-04.svg',
-    title: 'Modeling',
+    title: 'Community & Collaboration',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+      'Join a vibrant community of learners and developers to collaborate, share knowledge, and work on coding challenges together.',
   },
 ];
 
 export default function Features() {
   useEffect(() => {
     const carousel = new Swiper('.carousel', {
-      // Thêm modules vào đây
       modules: [Autoplay, Navigation],
       breakpoints: {
         320: {
@@ -88,12 +86,12 @@ export default function Features() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-          <h2 className="h2 font-sans mb-4">
-            <p className="text-orange">Code.Hub</p>
-          </h2>
+            <h2 className="h2 font-sans mb-4">
+              <p className="text-orange">CodeHub Features</p>
+            </h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">
-              Code.Hub is a Recruitment Agency, a Learning & Development partner, an Extended Team and Project Delivery expert in the Tech Industry.
+                CodeHub is your partner in learning and development. Explore interactive coding tutorials, mentorship, and project-based learning to enhance your skills.
               </p>
             </div>
           </div>
