@@ -3,6 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../../public/images/logo.png';
+import CatalogDropdown from '../catalog-dropdown';
 
 export default function Header({ nav = true }: { nav?: boolean }) {
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
@@ -60,9 +61,7 @@ export default function Header({ nav = true }: { nav?: boolean }) {
                 <Link href="/learn" className="text-slate-700 hover:text-indigo-500 font-medium transition-colors">
                   Learn
                 </Link>
-                <Link href="/catalog" className="text-slate-700 hover:text-indigo-500 font-medium transition-colors">
-                  Catalog
-                </Link>
+                <CatalogDropdown/>
                 <div 
                   className="relative group"
                   onMouseEnter={handleMouseEnter}

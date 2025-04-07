@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'music-bar-1': 'music-bar-1 1.2s ease-in-out infinite',
+        'music-bar-2': 'music-bar-2 1.3s ease-in-out infinite',
+        'music-bar-3': 'music-bar-3 1.1s ease-in-out infinite',
+        'music-bar-4': 'music-bar-4 1.4s ease-in-out infinite',
+      },
       fontFamily: {
         roboto: ['var(--font-roboto)', 'sans-serif'],
         sans: ['var(--font-montserrat)', 'sans-serif'],
@@ -36,3 +42,14 @@ module.exports = {
   },
   plugins: [require('@tailwindcss/forms')],
 };
+/* Add to your tailwind.config.js */
+/*
+extend: {
+  animation: {
+    'music-bar-1': 'music-bar-1 1.2s ease-in-out infinite',
+    'music-bar-2': 'music-bar-2 1.3s ease-in-out infinite',
+    'music-bar-3': 'music-bar-3 1.1s ease-in-out infinite',
+    'music-bar-4': 'music-bar-4 1.4s ease-in-out infinite',
+  },
+}
+*/
