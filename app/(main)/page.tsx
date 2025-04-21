@@ -3,13 +3,13 @@
 
 import { useEffect } from 'react';
 import { useThreeJs } from '../context/ThreeJsContext';
-import Hero from '../../components/hero';
-import Features from '../../components/features';
-import Features02 from '../../components/features-02';
-import FeaturedProjects from '../../components/featured-projects';
-import Faqs from '../../components/faqs';
-import TestimonialsCarousel from '../../components/testimonials';
-import Cta from '../../components/cta';
+import Hero from '../../components/main/hero';
+import Features from '../../components/main/features';
+import Features02 from '../../components/main/features-02';
+import FeaturedProjects from '../../components/main/featured-projects';
+import Faqs from '../../components/main/faqs';
+import TestimonialsCarousel from '../../components/main/testimonials';
+import Cta from '../../components/main/cta';
 import Footer from '../../components/ui/footer';
 
 export default function Home() {

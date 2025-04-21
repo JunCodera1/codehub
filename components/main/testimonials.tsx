@@ -1,4 +1,4 @@
-import Illustration from '../public/images/pricing-illustration.svg';
+import Illustration from '../../public/images/pricing-illustration.svg';
 import Image from 'next/image';
 import Testimonial from './testimonial';
 

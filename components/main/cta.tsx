@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Illustration from '../public/images/cta-illustration.svg'
+import Illustration from '../../public/images/cta-illustration.svg'
 
 export default function Cta() {
   return (

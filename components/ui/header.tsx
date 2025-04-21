@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../../public/images/logo.png';
-import CatalogDropdown from '../catalog-dropdown';
+import CatalogDropdown from '../main/catalog-dropdown';
 
 export default function Header({ nav = true }: { nav?: boolean }) {
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
@@ -81,7 +81,7 @@ export default function Header({ nav = true }: { nav?: boolean }) {
                     ref={dropdownRef}
                     className={`absolute bg-white shadow-lg rounded-lg p-4 min-w-[200px] mt-2 transition-all duration-200 ${isResourcesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}
                   >
-                    <Link href="/blog" className="block py-2 px-4 hover:bg-slate-50 rounded transition-colors">Blog</Link>
+                    <Link href="/resources/blog" className="block py-2 px-4 hover:bg-slate-50 rounded transition-colors">Blog</Link>
                     <Link href="/docs" className="block py-2 px-4 hover:bg-slate-50 rounded transition-colors">Documentation</Link>
                     <Link href="/community" className="block py-2 px-4 hover:bg-slate-50 rounded transition-colors">Community</Link>
                   </div>

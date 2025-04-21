@@ -2,7 +2,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useThreeJs } from '../app/context/ThreeJsContext';
+import { useThreeJs } from '../../app/context/ThreeJsContext';
 
 type SectionEffect = 'particles' | 'waves' | 'grid' | null;
 

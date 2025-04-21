@@ -1,7 +1,7 @@
 "use client";
 import Image from 'next/image';
 import Link from 'next/link';
-import HeroImage from '../public/images/hero-image.png';
+import HeroImage from '../../public/images/hero-image.png';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Hero() {

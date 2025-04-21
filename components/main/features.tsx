@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 import Image from 'next/image';
-import Illustration from '../public/images/features-illustration.svg';
+import Illustration from '../../public/images/features-illustration.svg';
 
 // Import Swiper
 import { Swiper } from 'swiper';

@@ -582,4 +582,6 @@ input[type=range]::-moz-focus-outer {
   50% { height: 18px; }
   75% { height: 10px; }
 }
-
+html, body {
+  overflow-x: hidden;
+}

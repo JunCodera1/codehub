@@ -2,8 +2,8 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
-import Illustration from '../public/images/features-illustration-02.svg';
-import FeaturesImage from '../public/images/features-image.svg';
+import Illustration from '../../public/images/features-illustration-02.svg';
+import FeaturesImage from '../../public/images/features-image.svg';
 import * as THREE from 'three';
 
 export default function Features02() {
