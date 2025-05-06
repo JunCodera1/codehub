@@ -128,9 +128,7 @@ export default function BlogPage() {
   });
 
   return (
-    <>
-      <Header/>
-      
+    <>      
       {/* Main Content */}
       <main className="max-w-6xl mx-auto px-4 py-12">
         {/* Search and Filter */}
