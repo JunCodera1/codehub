@@ -84,9 +84,7 @@ export default function CProgrammingCoursePage() {
   ];
   
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Header />
-      
+    <div className="min-h-screen bg-gray-50">      
       {/* Hero section */}
       <div className="pt-24 bg-gray-900 text-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16">

@@ -47,10 +47,10 @@ export default function Header({ nav = true }: { nav?: boolean }) {
             {/* Logo */}
             <Link className="block" href="/" aria-label="pancaronadev">
               <Image
-                className="w-16 h-16 md:w-25 md:h-25" // đã phóng to lên gấp đôi
+                className="w-12 h-12 md:w-16 md:h-16" // Tăng kích thước cho mobile và desktop
                 src={Logo}
-                width={200}
-                height={200}
+                width={120}
+                height={120}
                 alt="Logo"
               />
             </Link>
