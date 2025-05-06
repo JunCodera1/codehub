@@ -11,16 +11,16 @@ export default function TestimonialsCarousel() {
       date: 'June 23, 2028',
       content:
         'CodeHub has completely transformed my approach to learning programming. The structured courses and community support have made learning so much more engaging!',
-      channel: 'Twitter',
+      channel: 'Youtube',
     },
     {
       img: '/images/testimonial-02.png',
       name: 'Dylan Harper',
-      username: '@dharper_99',
+      username: 'dharper_99',
       date: 'July 8, 2028',
       content:
         "CodeHub's interactive tutorials and mentorship program have taken my coding skills to the next level. It feels like I'm working on real-world projects!",
-      channel: 'Twitter',
+      channel: 'Google',
     },
     {
       img: '/images/testimonial-03.png',

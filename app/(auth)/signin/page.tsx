@@ -1,5 +1,5 @@
 export const metadata = {
-    title: 'Sign In - Saas Free',
+    title: 'Sign In',
     description: 'Page description',
   };
   

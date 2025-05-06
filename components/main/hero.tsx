@@ -37,6 +37,14 @@ export default function Hero() {
             >
               <div>
                 <Link
+                  className="btn text-white bg-green-500 hover:bg-indigo-600 w-full shadow-sm group"
+                  href="/catalog"
+                >
+                  Explore all course
+                </Link>
+              </div>
+              <div>
+                <Link
                   className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group"
                   href="/signup"
                 >

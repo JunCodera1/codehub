@@ -78,7 +78,7 @@ export default function CatalogDropdown() {
           <h3 className="font-semibold text-lg mb-3">More topics</h3>
           <ul className="space-y-2">
             <li><Link href="/catalog/csharp" className="block py-1 hover:text-indigo-500">C#</Link></li>
-            <li><Link href="/catalog/c-language" className="block py-1 hover:text-indigo-500">C</Link></li>
+            <li><Link href="/catalog/c" className="block py-1 hover:text-indigo-500">C</Link></li>
             <li><Link href="/catalog/php" className="block py-1 hover:text-indigo-500">PHP</Link></li>
             <li><Link href="/catalog/r" className="block py-1 hover:text-indigo-500">R</Link></li>
             <li><Link href="/catalog/it" className="block py-1 hover:text-indigo-500">IT</Link></li>

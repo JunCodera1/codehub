@@ -82,8 +82,8 @@ export default function Header({ nav = true }: { nav?: boolean }) {
                     className={`absolute bg-white shadow-lg rounded-lg p-4 min-w-[200px] mt-2 transition-all duration-200 ${isResourcesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-1'}`}
                   >
                     <Link href="/resources/blog" className="block py-2 px-4 hover:bg-slate-50 rounded transition-colors">Blog</Link>
-                    <Link href="/docs" className="block py-2 px-4 hover:bg-slate-50 rounded transition-colors">Documentation</Link>
-                    <Link href="/community" className="block py-2 px-4 hover:bg-slate-50 rounded transition-colors">Community</Link>
+                    <Link href="/resources/docs" className="block py-2 px-4 hover:bg-slate-50 rounded transition-colors">Documentation</Link>
+                    <Link href="/resources/community" className="block py-2 px-4 hover:bg-slate-50 rounded transition-colors">Community</Link>
                   </div>
                 </div>
               </nav>
@@ -99,6 +99,12 @@ export default function Header({ nav = true }: { nav?: boolean }) {
                   className="text-slate-700 hover:text-indigo-500 font-medium hidden md:inline-block"
                 >
                   Sign in
+                </Link>
+                <Link
+                  href="/catalog"
+                  className="btn-sm text-white bg-green-500 hover:bg-indigo-600 shadow-sm group px-6 py-2.5 rounded-md font-medium"
+                >
+                  Explore all courses
                 </Link>
                 <Link
                   href="/signup"
